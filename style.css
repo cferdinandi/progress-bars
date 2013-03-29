@@ -59,3 +59,8 @@ img, audio, video, canvas { max-width: 100%; }
         -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+
+/*  Alternate color for stacked graphs */
+.graph-bar-alt {
+    background-color: #005580;
+}
