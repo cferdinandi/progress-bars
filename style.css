@@ -1,18 +1,20 @@
-/*
+/* =============================================================
 
-    NAME.CSS v1.0
-    Description
+    Bar Graph v1.1
+    A small bit of CSS for adding bar graphs to your website by Chris Ferdinandi.
     http://gomakethings.com
 
 
-    Licensed under WTFPL.
-    http://www.wtfpl.net/
+    Adapted from Bootstrap.
+    http://getbootstrap.com
     
+ * ============================================================= */
 
-*/
 
-/*  RESPONSIVE RESET */
-/*  Replace with your own */
+/* =============================================================
+    RESPONSIVE RESET
+    Replace with your own.
+ * ============================================================= */
 
 @-webkit-viewport { width: device-width; zoom: 1.0; }
    @-moz-viewport { width: device-width; zoom: 1.0; }
@@ -36,7 +38,10 @@ img, audio, video, canvas { max-width: 100%; }
 
 
 
-/*  BAR GRAPHS */
+/* =============================================================
+    BAR GRAPHS
+    Styling for simple bar graphs.
+ * ============================================================= */
 
 /*  The wrapper for the bar */
 .graph {
