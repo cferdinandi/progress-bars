@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Bar Graph - Simple CSS bar graphs</title>
+	<title>Progress Bars</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- A basic responsive reset -->
@@ -13,7 +13,7 @@
 			 @-o-viewport { width: device-width; zoom: 1.0; }
 				@viewport { width: device-width; zoom: 1.0; }
 
-		html { overflow-y: auto; }
+		html { overflow-y: auto; line-height: 1.5625; }
 
 		img, audio, video, canvas { max-width: 100%; }
 
@@ -27,7 +27,7 @@
 	</style>
 
 	<!-- stylesheets -->
-	<link rel="stylesheet" href="bar-graph.css" type="text/css">
+	<link rel="stylesheet" href="css/progress-bars-css.css" type="text/css">
 
 	<!-- HTML5 Shim for IE -->
 	<!--[if IE]>
@@ -38,24 +38,37 @@
 <body>
 	<section class="container">
 
-		<h1 style="text-align: center; font-size: 3em;">Bar Graph</h1>
-		<p style="text-align: center; font-size: 1.5em;">Simple CSS bar graphs.</p>
+		<h1 style="text-align: center; font-size: 3em;">Progress Bars</h1>
+		<p style="text-align: center; font-size: 1.5em;">Simple CSS Progress Bars</p>
 
-		<div class="graph">
-			<div class="graph-bar" style="width: 90%;">
-				Label in Bar
+
+		<div class="progress">
+			<div class="progress-bar" style="width: 90%;">
+				Basic
 			</div>
 		</div>
-		<div class="graph">
-			<div class="graph-bar" style="width: 20%;"></div>
-			Label Outside of Bar
+
+		<div class="progress">
+			<div class="progress-bar progress-bar-secondary" style="width: 20%;"></div>
+			Secondary
 		</div>
-		<div class="graph">
-			<div class="graph-bar" style="width: 30%;">
-				Bar 1
+
+
+		<div class="progress">
+			<div class="progress-bar progress-bar-success" style="width: 80%;">
+				Success
 			</div>
-			<div class="graph-bar graph-bar-alt" style="width: 50%;">
-				Bar 2
+		</div>
+
+		<div class="progress">
+			<div class="progress-bar progress-bar-danger" style="width: 60%;">
+				Danger
+			</div>
+		</div>
+
+		<div class="progress">
+			<div class="progress-bar progress-bar-warning" style="width: 70%;">
+				Warning
 			</div>
 		</div>
 
