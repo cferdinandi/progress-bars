@@ -1,4 +1,4 @@
-# Progress Bars
+# Progress Bars [![Build Status](https://travis-ci.org/cferdinandi/progress-bars.svg)](https://travis-ci.org/cferdinandi/progress-bars)
 Simple CSS progress bars. [View the demo](http://cferdinandi.github.io/progress-bars/).
 
 **In This Documentation**
@@ -12,6 +12,8 @@ Simple CSS progress bars. [View the demo](http://cferdinandi.github.io/progress-
 
 
 ## Getting Started
+
+Compiled and production-ready code can be found in the `dist` directory. The `src` directory contains development code.
 
 ### 1. Include Progress Bars on your site.
 
@@ -82,6 +84,11 @@ Progress Bars is licensed under the [MIT License](http://gomakethings.com/mit/).
 
 ## Changelog
 
+* v2.1.0 - June 23, 2014
+    * Converted to gulp.js workflow.
+    * Updated naming conventions.
+    * Added minified versions of files.
+    * Updated to three number versioning system.
 * v2.0 - December 6, 2013
 	* Renamed from Bar Graph to Progress Bars.
 	* Added support for success, danger and warning colors.

@@ -1,13 +1,11 @@
-/* =============================================================
-
-	Bar Graph v2.0
-	A small bit of CSS for adding progress bars to your website, by Chris Ferdinandi.
-	http://gomakethings.com
-
-	Free to use under the MIT License.
-	http://gomakethings.com/mit/
-
- * ============================================================= */
+/**
+ * progress-bars v2.1.0
+ * A small bit of CSS for adding progress bars to your website, by Chris Ferdinandi.
+ * http://github.com/cferdinandi/progress-bars
+ * 
+ * Free to use under the MIT License.
+ * http://gomakethings.com/mit/
+ */
 
 /*  The wrapper for the progress bar */
 .progress {
@@ -26,7 +24,7 @@
 	height: 100%;
 	color: $color-white;
 	background-color: $color-primary;
-	@include prefixer( box-sizing, border-box, webkit moz spec );
+	box-sizing: border-box;
 }
 
 .progress-bar-secondary {

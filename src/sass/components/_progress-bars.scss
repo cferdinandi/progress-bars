@@ -1,0 +1,35 @@
+/*  The wrapper for the progress bar */
+.progress {
+	height: $spacing;
+	margin-bottom: calc-em(8px);
+	overflow: hidden;
+	background-color: $color-gray-light;
+	border-radius: calc-em(1px);
+	text-align: center;
+}
+
+/*  The actual progress bar itself */
+.progress-bar {
+	float: left;
+	width: 0;
+	height: 100%;
+	color: $color-white;
+	background-color: $color-primary;
+	box-sizing: border-box;
+}
+
+.progress-bar-secondary {
+	background-color: $color-gray-dark;
+}
+
+.progress-bar-success {
+	background-color: $color-success;
+}
+
+.progress-bar-danger {
+	background-color: $color-danger;
+}
+
+.progress-bar-warning {
+	background-color: $color-warning;
+}
