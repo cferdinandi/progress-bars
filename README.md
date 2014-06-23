@@ -18,7 +18,7 @@ Compiled and production-ready code can be found in the `dist` directory. The `sr
 ### 1. Include Progress Bars on your site.
 
 ```html
-<link rel="stylesheet" href="css/progress-bars-css.css">
+<link rel="stylesheet" href="css/progress-bars.css">
 ```
 
 Progress Bars is [built with Sass](http://sass-lang.com/) for easy customization. If you don't use Sass, that's ok. The `css` folder contains compiled vanilla CSS.
