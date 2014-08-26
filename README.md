@@ -86,6 +86,8 @@ Progress Bars is licensed under the [MIT License](http://gomakethings.com/mit/).
 
 Progress Bars uses [semantic versioning](http://semver.org/).
 
+* v2.2.0 - August 25, 2014
+    * Switched from Sass Lib to Ruby Sass.
 * v2.1.0 - June 23, 2014
     * Converted to gulp.js workflow.
     * Updated naming conventions.
