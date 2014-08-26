@@ -1,2 +1,2 @@
-/** progress-bars v2.1.0, by Chris Ferdinandi | http://github.com/cferdinandi/progress-bars | Licensed under MIT: http://gomakethings.com/mit/ */
+/** progress-bars v2.2.0, by Chris Ferdinandi | http://github.com/cferdinandi/progress-bars | Licensed under MIT: http://gomakethings.com/mit/ */
 .progress{height:1.5625em;margin-bottom:.5em;overflow:hidden;background-color:#e5e5e5;border-radius:.0725em;text-align:center}.progress-bar{float:left;width:0;height:100%;color:#fff;background-color:#08c;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.progress-bar-secondary{background-color:gray}.progress-bar-success{background-color:#377f31}.progress-bar-danger{background-color:#880e14}.progress-bar-warning{background-color:#dba909}
