@@ -1,5 +1,5 @@
 /**
- * progress-bars v2.2.0
+ * progress-bars v2.2.1
  * A small bit of CSS for adding progress bars to your website, by Chris Ferdinandi.
  * http://github.com/cferdinandi/progress-bars
  * 
@@ -22,7 +22,7 @@
   float: left;
   width: 0;
   height: 100%;
-  color: white;
+  color: #ffffff;
   background-color: #0088cc;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -30,7 +30,7 @@
 }
 
 .progress-bar-secondary {
-  background-color: gray;
+  background-color: #808080;
 }
 
 .progress-bar-success {
