@@ -33,32 +33,32 @@ Use percentages to set the widths of each bar. Add optional `.progress-bar-secon
 
 ```html
 <div class="progress">
-    <div class="progress-bar" style="width: 90%;">
-        Basic
-    </div>
+	<div class="progress-bar" style="width: 90%;">
+		Basic
+	</div>
 </div>
 
 <div class="progress">
-    <div class="progress-bar progress-bar-secondary" style="width: 30%;"></div>
-    Secondary
+	<div class="progress-bar progress-bar-secondary" style="width: 30%;"></div>
+	Secondary
 </div>
 
 <div class="progress">
-    <div class="progress-bar progress-bar-success" style="width: 80%;">
-    	Success
-    </div>
+	<div class="progress-bar progress-bar-success" style="width: 80%;">
+		Success
+	</div>
 </div>
 
 <div class="progress">
-    <div class="progress-bar progress-bar-danger" style="width: 60%;">
-    	Danger
-    </div>
+	<div class="progress-bar progress-bar-danger" style="width: 60%;">
+		Danger
+	</div>
 </div>
 
 <div class="progress">
-    <div class="progress-bar progress-bar-warning" style="width: 70%;">
-    	Warning
-    </div>
+	<div class="progress-bar progress-bar-warning" style="width: 70%;">
+		Warning
+	</div>
 </div>
 ```
 
@@ -78,7 +78,7 @@ You can install Progress Bars with your favorite package manager.
 
 ## Working with the Source Files
 
-If you would prefer, you can work with the development code in the `src` directory using the included [Gulp build system](http://gulpjs.com/). This compiles, lints, and minifies code, and runs unit tests.
+If you would prefer, you can work with the development code in the `src` directory using the included [Gulp build system](http://gulpjs.com/). This compiles, lints, and minifies code, and runs unit tests. It's the same build system that's used by [Kraken](http://cferdinandi.github.io/kraken/), so it includes some unnecessary tasks and Sass variables but can be dropped right in to the boilerplate without any configuration.
 
 ### Dependencies
 Make sure these are installed first.
@@ -86,15 +86,15 @@ Make sure these are installed first.
 * [Node.js](http://nodejs.org)
 * [Ruby Sass](http://sass-lang.com/install)
 * [Gulp](http://gulpjs.com) `sudo npm install -g gulp`
-* [PhantomJS](http://phantomjs.org)
 
 ### Quick Start
 
 1. In bash/terminal/command line, `cd` into your project directory.
 2. Run `npm install` to install required files.
-3. When it's done installing, run `gulp` to get going.
-
-Every time you want to run your tasks, run `gulp`.
+3. When it's done installing, run one of the task runners to get going:
+	* `gulp` manually compiles files.
+	* `gulp watch` automatically compiles files when changes are made.
+	* `gulp reload` automatically compiles files and applies changes using [LiveReload](http://livereload.com/).
 
 
 
@@ -120,17 +120,19 @@ Progress Bars is licensed under the [MIT License](http://gomakethings.com/mit/).
 
 Progress Bars uses [semantic versioning](http://semver.org/).
 
+* v2.2.2 - October 19, 2014
+	* Updated `gulpfile.js` tasks and namespacing.
 * v2.2.1 - October 3, 2014
-    * Updated `gulpfile.js`.
-    * Updated readme.
-    * Updated travis config.
+	* Updated `gulpfile.js`.
+	* Updated readme.
+	* Updated travis config.
 * v2.2.0 - August 25, 2014
-    * Switched from Sass Lib to Ruby Sass.
+	* Switched from Sass Lib to Ruby Sass.
 * v2.1.0 - June 23, 2014
-    * Converted to gulp.js workflow.
-    * Updated naming conventions.
-    * Added minified versions of files.
-    * Updated to three number versioning system.
+	* Converted to gulp.js workflow.
+	* Updated naming conventions.
+	* Added minified versions of files.
+	* Updated to three number versioning system.
 * v2.0 - December 6, 2013
 	* Renamed from Bar Graph to Progress Bars.
 	* Added support for success, danger and warning colors.
