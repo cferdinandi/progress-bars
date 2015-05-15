@@ -9,7 +9,6 @@ Simple CSS progress bars. [View the demo](http://cferdinandi.github.io/progress-
 4. [Browser Compatibility](#browser-compatibility)
 5. [How to Contribute](#how-to-contribute)
 6. [License](#license)
-7. [Changelog](#changelog)
 
 
 
