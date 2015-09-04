@@ -1,2 +1,7 @@
-/** progress-bars v2.2.2, by Chris Ferdinandi | http://github.com/cferdinandi/progress-bars | Licensed under MIT: http://gomakethings.com/mit/ */
-.progress{height:1.5625em;margin-bottom:.5em;overflow:hidden;background-color:#e5e5e5;border-radius:.0725em;text-align:center}.progress-bar{float:left;width:0;height:100%;color:#fff;background-color:#08c;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.progress-bar-secondary{background-color:gray}.progress-bar-success{background-color:#377f31}.progress-bar-danger{background-color:#880e14}.progress-bar-warning{background-color:#dba909}
+/*! progress-bars v2.2.2 | (c) 2015 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/progress-bars */
+/*!
+ * progress-bars v2.2.2: A small bit of CSS for adding progress bars to your website
+ * (c) 2015 Chris Ferdinandi
+ * MIT License
+ * http://github.com/cferdinandi/progress-bars
+ */.progress{height:1.5625em;margin-bottom:.5em;overflow:hidden;background-color:#e5e5e5;border-radius:.0725em;text-align:center}.progress-bar{float:left;width:0;height:100%;color:#fff;background-color:#08c;box-sizing:border-box}.progress-bar-secondary{background-color:grey}.progress-bar-success{background-color:#377f31}.progress-bar-danger{background-color:#880e14}.progress-bar-warning{background-color:#dba909}
