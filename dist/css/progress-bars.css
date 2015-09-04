@@ -1,13 +1,12 @@
-/**
- * progress-bars v2.2.2
- * A small bit of CSS for adding progress bars to your website, by Chris Ferdinandi.
+/*!
+ * progress-bars v2.2.2: A small bit of CSS for adding progress bars to your website
+ * (c) 2015 Chris Ferdinandi
+ * MIT License
  * http://github.com/cferdinandi/progress-bars
- * 
- * Free to use under the MIT License.
- * http://gomakethings.com/mit/
  */
 
 /*  The wrapper for the progress bar */
+/* line 2, /Users/cferdinandi/Sites/progress-bars/src/sass/components/_progress-bars.scss */
 .progress {
   height: 1.5625em;
   margin-bottom: 0.5em;
@@ -18,29 +17,32 @@
 }
 
 /*  The actual progress bar itself */
+/* line 12, /Users/cferdinandi/Sites/progress-bars/src/sass/components/_progress-bars.scss */
 .progress-bar {
   float: left;
   width: 0;
   height: 100%;
   color: #ffffff;
   background-color: #0088cc;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+/* line 21, /Users/cferdinandi/Sites/progress-bars/src/sass/components/_progress-bars.scss */
 .progress-bar-secondary {
   background-color: #808080;
 }
 
+/* line 25, /Users/cferdinandi/Sites/progress-bars/src/sass/components/_progress-bars.scss */
 .progress-bar-success {
   background-color: #377f31;
 }
 
+/* line 29, /Users/cferdinandi/Sites/progress-bars/src/sass/components/_progress-bars.scss */
 .progress-bar-danger {
   background-color: #880e14;
 }
 
+/* line 33, /Users/cferdinandi/Sites/progress-bars/src/sass/components/_progress-bars.scss */
 .progress-bar-warning {
   background-color: #dba909;
 }
